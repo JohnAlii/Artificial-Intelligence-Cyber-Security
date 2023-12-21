@@ -1,0 +1,27 @@
+[
+  {
+    "image": "./images/welcome1.png",
+    "heading": "Nextly as the Winners in Global Agency Awards",
+    "description": "Lorem Cumque, culpa accusantium. Ipsum consequuntur maxime dolores nobis placeat nesciunt quam, odio earum temporibus."
+  },
+  {
+    "image": "./images/welcome2.png",
+    "heading": "Expert Perspective Agency Awards",
+    "description": "Lorem Cumque, culpa accusantium. Ipsum consequuntur maxime dolores nobis placeat nesciunt quam, odio earum temporibus."
+  },
+  {
+    "image": "./images/welcome3.png",
+    "heading": "Business Perspective Global Agency Awards",
+    "description": "Lorem Cumque, culpa accusantium. Ipsum consequuntur maxime dolores nobis placeat nesciunt quam, odio earum temporibus."
+  },
+  {
+    "image": "./images/welcome4.png",
+    "heading": "Value for Results in Global Agency Awards",
+    "description": "Lorem Cumque, culpa accusantium. Ipsum consequuntur maxime dolores nobis placeat nesciunt quam, odio earum temporibus."
+  },
+  {
+    "image": "./images/welcome5.png",
+    "heading": "Global Experience in Agency Awards",
+    "description": "Lorem Cumque, culpa accusantium. Ipsum consequuntur maxime dolores nobis placeat nesciunt quam, odio earum temporibus."
+  }
+]

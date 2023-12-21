@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{%PROJECT_NAME%} | Website</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/contact.section.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    {%main%}
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="./images/logo.png" alt="AI" />
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#showcase">Home</a></li>
+              <li><a href="#brain">About</a></li>
+              <li><a href="#what">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <a href="./contact/index.html" class="btn">Sign up</a>
+        </nav>
+      </div>
+    </header>
+    <section id="showcase">
+      <div class="container">
+        <div class="showcase-content">
+          <div class="showcase-text">
+            <small class="clr-primary px-1">NEXT GENERATION PLATFORM</small>
+            <h1 class="l-heading">
+              {%PROJECT_NAME%} <br />
+              & {%PROJECT_NAME2%}
+            </h1>
+            <p class="px-1 m-text">{%MAIN_DESC%}</p>
+            <div class="buttons">
+              <a href="#" class="btn">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=kWmX3pd1f10" class="btn"
+                ><i class="fas fa-play"></i> &nbsp; Watch Video</a
+              >
+            </div>
+          </div>
+          <div class="showcase-image">
+            <img src="./images/preview.png" alt="preview" />
+          </div>
+        </div>
+        <div class="group">
+          <img src="./images/Group 404.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="brain">
+      <div class="container">
+        <div class="content">
+          <div class="content-image">
+            <img src="./images/about 4.png" alt="Brain" />
+          </div>
+          <div class="content-text">
+            <h1 class="m-heading">
+              Apply AI, Deep Learning <br />and Data Science to solve
+            </h1>
+            <p class="px-1 m-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              veniam exercitationem perspiciatis ea modi, eveniet similique.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="what">
+      <div class="boxes">{%PROJECT_CARDS%}</div>
+      <div class="circles"></div>
+      <div class="container">
+        <div class="content">
+          <div class="content-text">
+            <h1 class="m-heading px-1">{%WHAT_HEADING%}</h1>
+            <p class="m-text">{%WHAT_DESC%}</p>
+            <p class="m-text">{%WHAT_DESC%}</p>
+            <p class="m-text">{%WHAT_DESC%}</p>
+            <p class="m-text">{%WHAT_DESC%}</p>
+          </div>
+          <div class="content-image">
+            <img src="./images/say.png" alt="Brain" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="form-container">
+          <p class="question">Have a question or want to work together?</p>
+          <form action="#">
+            <div class="form-control">
+              <input type="text" required id="name" />
+              <label for="name">Name</label>
+            </div>
+            <div class="form-control">
+              <input type="email" required id="email" />
+              <label for="email">Enter email</label>
+            </div>
+            <div class="form-control">
+              <textarea
+                rows="10"
+                placeholder="Your Message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="form-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="boxes">
+          <div class="box">
+            <img src="./images/footer.png" alt="" class="logo" />
+            <p class="m-text">
+              Lorem ipsum dolor , repellendus hic dolor ipsa consequuntur
+              temporibus!
+            </p>
+            <ul>
+              <li><i class="fas fa-envelope"></i>Company@gmail.com</li>
+              <li><i class="fas fa-phone-alt"></i> Phone: (064) 332- 1233</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 450 Wall Street, USA, New
+                York
+              </li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Information</h3>
+            <ul class="list">
+              <li class="list-item">New Collection</li>
+              <li class="list-item">About Store</li>
+              <li class="list-item">Contact Us</li>
+              <li class="list-item">Latest News</li>
+              <li class="list-item">Our Sitemap</li>
+              <li class="list-item">Orders History</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Footer Menu</h3>
+            <ul class="list">
+              <li class="list-item">New Collection</li>
+              <li class="list-item">About Store</li>
+              <li class="list-item">Contact Us</li>
+              <li class="list-item">Latest News</li>
+              <li class="list-item">Our Sitemap</li>
+              <li class="list-item">Orders History</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Useful links</h3>
+            <ul class="list">
+              <li class="list-item">New Collection</li>
+              <li class="list-item">About Store</li>
+              <li class="list-item">Contact Us</li>
+              <li class="list-item">Latest News</li>
+              <li class="list-item">Our Sitemap</li>
+              <li class="list-item">Orders History</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>About the store</h3>
+            <p class="m-text">
+              Lorem ipsum dolor dignissimos debitis odit, iusto officia
+              delectus!
+            </p>
+            <div class="socials">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <form action="#">
+              <label for="lang"><i class="fas fa-globe"></i></label>
+              <select name="lang" id="lang">
+                <option value="en">English</option>
+                <option value="ru">Russian</option>
+                <option value="uz">Uzbek</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
